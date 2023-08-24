@@ -4,10 +4,39 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<button type="button" id="open-modal" class="btn btn-primary" data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop">
+        Launch newton modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" id="newton-modal" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">New Modal</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla temporibus, earum voluptatibus maxime
+                    dicta distinctio error tenetur sunt ipsam quia, vitae veniam commodi ratione at animi rem eius,
+                    cupiditate praesentium repellendus! Est porro earum aut libero. Vel, numquam quaerat animi possimus
+                    quibusdam quo officiis veritatis, sed aperiam saepe facere. Officiis.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./script.js">
 </script>
 
